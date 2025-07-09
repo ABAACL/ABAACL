@@ -33,6 +33,15 @@ header {
     color: #f8f9fa; // Lighter text for tagline
   }
 
+  p.view a {
+    color: #e9ecef; // Light gray for better contrast on primary background
+    text-decoration: underline;
+  }
+
+  p.view a:hover {
+    color: #fff; // White on hover
+  }
+
   img {
     max-width: 150px; // Adjust as needed
     margin-bottom: 10px;
