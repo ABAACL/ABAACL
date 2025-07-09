@@ -1,0 +1,83 @@
+---
+---
+
+// Define a color scheme
+$primary-color: #007bff; // Professional Blue
+$secondary-color: #6c757d; // Muted Gray
+$text-color: #333;
+$background-color: #fff;
+
+// Import the theme's styles
+@import "{{ site.theme }}";
+
+// General body styling
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; // Common professional font
+  color: $text-color;
+  background-color: $background-color;
+}
+
+// Header styling
+header {
+  background-color: $primary-color;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+
+  h1 a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  p {
+    color: #f8f9fa; // Lighter text for tagline
+  }
+
+  img {
+    max-width: 150px; // Adjust as needed
+    margin-bottom: 10px;
+  }
+}
+
+// Navigation styling
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #fff; // White navigation links to contrast with primary color header
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+// Section styling
+section {
+  padding: 20px;
+  max-width: 800px; // Limit content width for readability
+  margin: 0 auto; // Center content
+}
+
+// Footer styling
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  color: $secondary-color;
+  border-top: 1px solid #eee; // Subtle separator
+}
