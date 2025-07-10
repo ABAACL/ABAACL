@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal
 title: ABAA Consulting Limited
 description: Technical Business Consultancy
-logo: /assets/images/logo.png # Placeholder for logo
+logo: /assets/images/logo.jpg # Placeholder for logo - Updated to JPG
 navigation:
   - title: Home
     url: /
